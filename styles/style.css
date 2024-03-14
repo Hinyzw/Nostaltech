@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(../images/imagem\ de\ fundo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sunlight {
+  max-width: 100px;
+}
+.navegacao ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  padding: 14px;
+}
+.navegacao ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.navegacao ul li a:hover,
+.navegacao ul li a:focus {
+  color: yellow;
+}
+.navegacao ul li a.ativo {
+  color: yellow;
+  font-weight: bold;
+}
+.navegacao ul li a.ativo:hover,
+.navegacao ul li a.ativo:focus {
+  color: white;
+}
+.sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  padding: 0 32px;
+}
+main.sobre .logo {
+  max-width: 300px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 0 32px;
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+.redessociais {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+}
+
+.redessociais img {
+  width: 24px;
+}
+.redessociais a {
+  text-decoration: none;
+  color: azure;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main {
+  margin: 32px;
+  display: flex;
+  background: rgb(179, 179, 179);
+  border-radius: 8px;
+  padding: 32px;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.bondedotigrao {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagembondedotigrao {
+  width: 350px;
+  justify-content: left;
+}
+.gruporouge {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagemgruporouge {
+  width: 350px;
+  justify-content: left;
+}
+.britneyspears {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagembritneyspears {
+  width: 350px;
+  justify-content: left;
+}
+.padrinhosmagicos {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagempadrinhosmagicos {
+  width: 250px;
+  justify-content: left;
+}
+.picapau {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagempicapau {
+  width: 200px;
+  justify-content: left;
+}
+.bobesponja {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagembobesponja {
+  width: 350px;
+  justify-content: left;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdc3ff;
+  font-family: Helvetica, sans-serif;
+}
+main{
+  background-color: #fdc3ff63;
+
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+  left: 31px;
+  }
+  
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  .right {
+  left: 0%;
+  }
+}
+.thesims{
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.thesimsimagem {
+  width: 250px;
+  justify-content: left;
+}
+.residentevil {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagemresidentevil {
+  width: 250px;
+  justify-content: left;
+}
+.gta {
+  display: flex;
+  padding: 32px;
+  line-height: 24px;
+  flex-direction: row;
+}
+.imagemgta {
+  width: 250px;
+  justify-content: left;
+}
