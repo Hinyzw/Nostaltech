@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
 header {
   background-color: rgba(0, 0, 0, 0.226);
   padding: 0 32px;
@@ -92,14 +93,20 @@ main {
   display: flex;
   padding: 32px;
   line-height: 24px;
+  gap: 50px;
+
   flex-direction: row;
 }
 .imagembondedotigrao {
   width: 350px;
+  gap: 150px;
+  gap: 50px;
+
   justify-content: left;
 }
 .gruporouge {
   display: flex;
+  gap: 50px;
   padding: 32px;
   line-height: 24px;
   flex-direction: row;
@@ -107,15 +114,19 @@ main {
 .imagemgruporouge {
   width: 350px;
   justify-content: left;
+  gap: 50px;
 }
 .britneyspears {
   display: flex;
   padding: 32px;
   line-height: 24px;
+  gap: 50px;
+
   flex-direction: row;
 }
 .imagembritneyspears {
   width: 350px;
+  gap: 50px;
   justify-content: left;
 }
 .padrinhosmagicos {
@@ -123,30 +134,37 @@ main {
   padding: 32px;
   line-height: 24px;
   flex-direction: row;
+  gap: 50px;
 }
 .imagempadrinhosmagicos {
   width: 250px;
   justify-content: left;
+  gap: 50px;
 }
 .picapau {
   display: flex;
   padding: 32px;
   line-height: 24px;
+  gap: 50px;
   flex-direction: row;
 }
 .imagempicapau {
   width: 200px;
+  
   justify-content: left;
 }
 .bobesponja {
   display: flex;
   padding: 32px;
   line-height: 24px;
+  gap: 50px;
   flex-direction: row;
 }
 .imagembobesponja {
   width: 350px;
   justify-content: left;
+  gap: 50px;
+
 }
 * {
   box-sizing: border-box;
@@ -273,30 +291,40 @@ main{
   padding: 32px;
   line-height: 24px;
   flex-direction: row;
+  gap: 50px;
+
 }
 .thesimsimagem {
   width: 250px;
   justify-content: left;
+  gap: 50px;
+
 }
 .residentevil {
   display: flex;
   padding: 32px;
   line-height: 24px;
+  gap: 50px;
   flex-direction: row;
 }
 .imagemresidentevil {
   width: 250px;
   justify-content: left;
+  gap: 50px;
+
 }
 .gta {
   display: flex;
   padding: 32px;
   line-height: 24px;
+  gap: 50px;
   flex-direction: row;
 }
 .imagemgta {
   width: 250px;
   justify-content: left;
+  gap: 50px;
+
 }
 h1{
   color: aqua;
