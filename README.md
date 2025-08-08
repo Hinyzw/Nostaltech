@@ -1,1 +1,1 @@
-https://hinyzw.github.io/Nostaltech/
+https://TailyniDev.github.io/Nostaltech/
